@@ -1,0 +1,31 @@
+{
+  "name": "search-index",
+  "displayName": "Search Index",
+  "title": "Search Index",
+  "version": "1.0.0",
+  "description": "Index all mail of a Mailspring account once, so search finds words in old messages too, not only in the last three months.",
+  "keywords": [
+    "mailspring",
+    "mailspring-plugin",
+    "search",
+    "full-text-search",
+    "index"
+  ],
+  "author": "Leks ter Schuur",
+  "license": "MIT",
+  "homepage": "https://github.com/leksts/mailspring-search-index#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leksts/mailspring-search-index.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leksts/mailspring-search-index/issues"
+  },
+  "main": "./lib/main",
+  "windowTypes": {
+    "default": true
+  },
+  "engines": {
+    "mailspring": "*"
+  }
+}
